@@ -1,0 +1,40 @@
+.card{
+    width: 200px;
+    display: inline-block;
+    border-color:black;
+    border-width: 5px;
+    border-style: dotted;
+    border-radius: 10%;
+    vertical-align: top;
+}
+.card img {
+    width: 100%;
+
+}
+.name{
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.card p{
+    font-family: sans-serif;
+}
+#pokemon1 {
+    background-color: burlywood;
+}
+#pokemon2 {
+    background-color: yellow;
+}#pokemon3 {
+    background-color: rgb(199, 142, 36);
+}#pokemon4 {
+    background-color: rgb(151, 30, 199);
+}#pokemon5 {
+    background-color: rgb(214, 96, 161);
+}#pokemon6 {
+    background-color: rgb(156, 96, 56);
+}
+.favorite {
+    border-style: dashed;
+    border-width: 15px;
+    border-color: black;
+}

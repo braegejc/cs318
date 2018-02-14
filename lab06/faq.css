@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(135, 108, 160);
+}
+h3 {
+    font-size: 24pt;
+    color:rgb(147, 196, 69);
+    font-family: 'Patua One', cursive;
+    text-shadow: 4px 1px 5px #000000;
+}
+.answer {
+    font-family: 'Indie Flower', cursive;
+}
