@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+.blurb {
+    width: 90%;
+    box-shadow: 0px,12px,30px;
+    font-family: 'Ubuntu', sans-serif;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    min-height: 202px;
+    min-width: 400px;
+    margin-top: 15px;
+}
+.left {
+    background: rgb(207, 145, 156);
+    background-image: url(http://www.thehindu.com/news/international/article22361464.ece/alternates/FREE_960/THJVNTRUMP);
+    padding-right: 50px;
+    background-position: left;
+    background-size:auto 200px;
+    background-repeat:no-repeat;
+    border-radius: 0 100px 100px 0;
+    padding-left: 300px;
+}
+.right {
+    background: green;
+    margin-left: auto;
+    background-image: url(https://assets.weforum.org/article/image/large_cSmpMaqlwDQ8k1-YCsfnDaOtfjYryb-LUxITkZ20pPw.jpg);
+    background-position: right;
+    background-size:200px 200px;
+    background-repeat:no-repeat;
+    padding-left: 50px;
+    border-radius: 100px 0px 0px 100px;
+    padding-right: 250px;
+}
+body {
+    margin:0;
+}
+h1 {
+    background: linear-gradient(to right, pink, green);
+    box-shadow: inset 0px 0px 10px white; 
+    padding: 10px 10px;
+    margin: 10px 10px;
+}
