@@ -38,7 +38,7 @@ footer {
 }
 img {
     width: 500px;
-    box-shadow: inset 20px 20px 20% black;
+    box-shadow: inset 20px 20px 20px black;
 }
 p{
     padding: 0 10px 10px 10px;
