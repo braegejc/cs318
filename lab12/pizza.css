@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    width: 600px;
+    box-shadow: 0 0 15px black;
+    margin: 0 auto;
+  }
+nav{
+    background-color: bisque;
+    float: left;
+    padding-right: 30px;
+}
+main{
+    background-color: rgb(223, 142, 104);
+    margin-left:174px;
+    padding: 15px 15px 15px 15px;
+}
+header{
+    background-color: bisque;
+    text-align: left;
+    margin-left:15px; 
+    color: black;
+    font-weight: bold;
+    text-shadow: 2px 0 white;
+}
+.restaurant {
+    width: 395px;
+}
+ul{
+    list-style: none;
+}
+.underline1{
+    text-decoration: none;
+    color:black;
+}
+.div1{
+    background-color: bisque;
+}
+.order{
+    background-image: url(http://pngimg.com/uploads/pizza/pizza_PNG7151.png);
+    height:105px;
+    width:105px;
+    background-size: 100px;
+    background-repeat: no-repeat;
+    position: fixed;
+    right:0;
+    top:0;
+}
+.label{
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    font-size: 24pt;
+    color: black;
+    font-weight: bold;
+    text-shadow: 2px 0 white;
+}
+footer {
+    text-align: center;
+    background-color: rgb(223, 142, 104);
+}
+.types {
+    width: 150px;
+}
+#cheese {
+    float:right;
+    clear:both;
+}#pepperoni {
+    float:left;
+    clear:both;
+}#sausage {
+    float:right;
+    clear:both;
+}
+iframe{
+    width:395px;
+}
