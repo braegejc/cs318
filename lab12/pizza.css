@@ -63,13 +63,12 @@ footer {
 }
 .types {
     width: 150px;
+    padding:10px;
 }
 #cheese {
     float:right;
-    clear:both;
 }#pepperoni {
     float:left;
-    clear:both;
 }#sausage {
     float:right;
     clear:both;
