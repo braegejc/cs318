@@ -2,51 +2,63 @@
     box-sizing: border-box;
   } 
 .box{
-    width: 485px;
-    height: 350px;
-    margin:20px 10px 20px 10px;
+    width: 450px;
+    height: 300px;
+    margin:10px 15px 10px 15px;
+}
+.image{
+    width:auto;
+    height: 100%;
     background-repeat: no-repeat;
     background-position: center center;
+    background-size:contain;
 }
-.first{
-    float:left;
-    clear: both;
-    background-image: url("https://www.nps.gov/grca/planyourvisit/images/Yaki-5197.jpg?maxwidth=650&autorotate=false");  
-    background-size: contain;
+#image1{
+    background-image: url("https://www.nps.gov/grca/planyourvisit/images/Yaki-5197.jpg?maxwidth=650&autorotate=false");
 }
-.second{
-    float:right;
-    clear: both;
-    background-size: contain;
+#image2{
     background-image: url("https://thumbs-prod.si-cdn.com/nA72TLLeitGZA4HUTR5_qhV4-Os=/800x600/filters:no_upscale()/https://public-media.smithsonianmag.com/filer/3c/2a/3c2af135-c333-4262-a5d9-91d596494c1e/mars_surface.jpg");
 }
-.third{
-    float: left;
-    clear: both;
-    background-size: contain;
+#image3{
     background-image: url("http://www.visitcalifornia.com/sites/default/files/styles/welcome_image/public/VC_Kidifornia_SupportingContent_MylesMcGuinness_SC-Redwoods9MQ_4891_1280x640_0.jpg");
 }
-.fourth{
-    float: right;
-    clear: both;
-    background-size: contain;
+#image4{
     background-image: url("https://vacationspotindonesia.files.wordpress.com/2015/06/green-canyon-pangandaran-11.jpg");
-   }
+}
+.left{
+    float:left;
+    clear: both; 
+}
+.right{
+    float:right;
+    clear: both;
+}
 .content{
     width: 80px;
     background-color: rgb(141, 106, 74);
     position:relative;
-    left:380px;
-    top:-10px;
+    left:300px;
     opacity: 0.85;
     overflow: auto;
     color: rgb(209, 179, 78);
     border-radius: 5px;
 }   
+.one{
+    top:5px;
+}
+.two{
+    top:-20px;
+}
+.three{
+    top:15px;
+}
+.four{
+    top:-20px;
+}
 @media (max-width:600px) {
-   .box{
-      background-size:100%,auto;
-       background-size:contain;
-       display: inline;
+    .box{
+        padding:0;
+        margin:10px auto 10px auto;
+        width:100%;
    }
 }
