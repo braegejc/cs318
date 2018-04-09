@@ -40,26 +40,24 @@ nav > ul {
     position: relative;
 }
 .menu:hover{
-cursor: pointer;
-background-color: rgb(63, 63, 63);
+    cursor: pointer;
+    background-color: rgb(63, 63, 63);
 }
 .menu div{
-position: absolute;
-top: 100%;
-padding: 0;
-left: 0;
-width: 100px;
-background-color: rgb(63, 63, 63);
-box-shadow: 5px 5px 5px black;
+    position: absolute;
+    top: 100%;
+    padding: 0;
+    left: 0;
+    width: 100px;
+    background-color: rgb(63, 63, 63);
+    box-shadow: 5px 5px 5px black;
 }
 .menu ul{
     padding:0;
     list-style: none;
 }
-
-.menu div li + li {
+.menu li + li {
     border-top: 1px solid white;
-   
     border-collapse: separate;
 }
 li a{
@@ -72,9 +70,44 @@ li a:hover{
     cursor: pointer;
     background-color: rgb(148, 144, 144);
 }
-div ul{
+body div ul{
 display: none;
 }
-.menu:hover div ul{
+.menu:hover ul{
     display: block;
+}
+header .menu ul {
+    position: absolute;
+    background-color: rgb(63, 63, 63);
+    width: 80px;
+    padding: 5px;
+    font-size: 15px;
+    left:auto;
+    right:0;
+}
+header .menu{
+    display: none;
+}
+@media (max-width:600px) {
+    header .menu{
+        display: block;
+    }
+    nav {
+        display: none;
+    }
+    header {
+        position: relative;
+    }
+    header .menu{
+        transform: translateY(25%);
+        right:0;
+        top:0;
+        bottom:0;
+        position: absolute;
+        border-left: 1px solid white;
+        font-size: 24px;
+    }
+    h1{
+        padding-left:15px;
+    }
 }
