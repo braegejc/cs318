@@ -3,10 +3,9 @@
 }
 body{
     margin:0;
-    width:1000px;
     margin-left:auto;
     margin-right:auto;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-image:url(http://eskipaper.com/images/free-hd-background-2.jpg);
 }
 main{
@@ -23,7 +22,7 @@ main{
 
 }
 header:first-child{
-    background-color: rgb(243, 219, 191);
+    background-color: rgb(211, 204, 191);
     color:black;
     padding:1px;
     padding-left: 10px;
@@ -73,7 +72,8 @@ nav > ul {
     border-top: 1px solid white;
     border-collapse: separate;
 }
-body div ul{
+/* body div ul{ */
+body .submenu ul{    
     display: none;
 }
 .menu:hover ul{
@@ -96,7 +96,7 @@ header .menu{
 #welcome{
     width: 280px;
     height:270px;
-    background-color: rgb(228, 155, 116);
+    background-color: rgb(179, 159, 144);
     text-align: center;
     padding:10px;
     border-radius: 25px;
@@ -144,9 +144,216 @@ header .menu{
     background-size: cover;
     background-image: url(openingpic.jpg);
 }
-
-
-@media (max-width:754px) {
+.content{
+    width:1000px;
+    background-color:rgb(249, 228, 213);
+}
+.mealtype{
+    padding-left:40px;
+    margin:0;  
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-shadow: 2px 2px rgb(255, 255, 255);
+}
+.recipe{
+    padding-left:40px;
+    position: relative;
+    padding-bottom: 20px;
+    padding-top:10px;
+    border-bottom: 1px solid black;
+}
+.recipename{
+    margin: 0;
+    padding-top: 10px;
+    color: rgb(180, 58, 58);
+    text-shadow: 1px 1px black;
+}
+#carnitas{
+    position: absolute;
+    right: 104px;
+    top:-30px;
+    width: 300px;
+    box-shadow: 0 0 8px black;
+    border-radius: 15px;
+    transform: rotate(-90deg);
+}
+#chili{
+    position: absolute;
+    right: 60px;
+    top:100px;
+    width: 250px;
+    box-shadow: 0 0 8px black;
+    border-radius: 15px;
+}
+#quinoa{
+    position: absolute;
+    right: 60px;
+    top:25px;
+    width: 250px;
+    box-shadow: 0 0 8px black;
+    border-radius: 15px;
+}
+#quinoabowl{
+    position: absolute;
+    right: 60px;
+    bottom:50px;
+    width: 250px;
+    box-shadow: 0 0 8px black;
+    border-radius: 15px;
+}
+#oatmeal{
+    position: absolute;
+    right: 60px;
+    bottom:30px;
+    width: 225px;
+    box-shadow: 0 0 8px black;
+    border-radius: 15px;
+}
+#beanbowl{
+    position: absolute;
+    right: 60px;
+    top:40px;
+    width: 350px;
+    box-shadow: 0 0 8px black;
+    border-radius: 15px;
+}
+#beanbowl2{
+    position: absolute;
+    right: 60px;
+    bottom:30px;
+    width: 225px;
+    box-shadow: 0 0 8px black;
+    border-radius: 15px;
+}
+.firstrecipe{
+    clear: both;
+    padding-right: 350px;
+}
+.secondrecipe{
+    clear: both;
+    padding-right: 350px;
+}
+.contentdiv{
+    padding-left:40px;
+    padding-right: 30px;
+    position: relative;
+    padding-bottom: 30px;
+}
+.heading{
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#facts{
+    position: absolute;
+    width: 425px;
+    right: 30px;
+    top:100px;
+    box-shadow: 0 0 8px black;
+    border-radius: 15px;
+}
+iframe{
+    width:400px;
+    height: 225px;
+}
+#helpinghand p{
+    width:475px;
+    text-indent: 30px;
+}
+.tips{
+    position: relative;
+}
+.tips p{
+    width:900px;
+    text-indent: 30px;
+    padding-left:40px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+}
+.tips .boldme{
+    font-weight: bold;
+    text-indent: 30px;
+}
+.tips h3{
+    padding-left:40px;
+}
+.tips h4{
+    padding-left:60px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    color:rgb(180, 58, 58);
+}
+.tips .ul-tips2{
+    margin-top:0;
+    margin-bottom: 0;
+    width: 500px;
+    padding-left:80px;
+    padding-right: 30px;
+}
+.tips .ul-tips3{
+    margin-top:0;
+    margin-bottom: 0;
+    width: 500px;
+    padding-left:80px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+.tips .ul-tips1{
+    width: 500px;
+    padding-left:80px;
+    padding-right: 30px;
+    padding-bottom: 20px; 
+}
+#healthypantry{
+    position: absolute;
+    right: 60px;
+    top:200px;
+    width: 275px;
+    box-shadow: 0 0 8px black;
+    border-radius: 15px;
+}
+#freshproduce{
+    position: absolute;
+    right: 60px;
+    bottom:175px;
+    width: 350px;
+    box-shadow: 0 0 8px black;
+    border-radius: 15px;
+}
+blockquote{
+    width:425px;
+    margin:10px;
+    padding-left:30px;    
+}
+.products{
+    position: relative;
+    border-bottom: 2px outset black;
+    padding-bottom: 20px;   
+    padding-top:20px;
+}
+.branddiv{
+    position: absolute;
+    left:500px;
+    top:0;
+    width: 400px;  
+    height: 200px;
+    text-align: center; 
+}
+.products img{
+    width:350px;
+    height: 200px;
+    margin-left:100px;
+    box-shadow: 0 0 8px black;
+    border-radius: 15px;
+    object-fit: cover;
+    background-color: white;
+}
+.products h2{
+    padding-top: 10px;
+    color: rgb(180, 58, 58);
+    text-shadow: 1px 1px black;
+}
+@media (max-width:1000px) {
     header .menu{
         display: block;
     }
@@ -155,26 +362,40 @@ header .menu{
     }
     header {
         position: relative;
+        
     }
     header h1 {
         text-align: center;
+        width: 100%
     }
-    .navbar .navbar-nav {
+    /* .navbar .navbar-nav {
         display: inline-block;
         float: none;
-    }
-    .navbar .navbar-collapse {
+    } */
+    /* .navbar .navbar-collapse {
         text-align: center;
-    }
+    } */
     .burger{
         text-decoration: none;
         color:black;
         text-align: left;
         padding-top:5px;
     }
-    #hide{
+    /* #hide{
         color:rgb(44, 43, 43);
         box-sizing: content-box;
         padding-bottom: 10px;
+    } */
+    #welcomepane{
+        display: none;
+    }
+    img {
+        display:inline;
+    }
+    .content {
+            width: 100%;
+    }
+    .content div{
+        width:100%;
     }
 }
